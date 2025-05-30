@@ -1,8 +1,9 @@
 {
-    "name": "bibo/exception",
+    "name": "biboletin/exception",
     "description": "Exception handler",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Bibo\\Exceptions\\": "src/"
