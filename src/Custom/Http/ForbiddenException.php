@@ -4,9 +4,26 @@ namespace Bibo\Exceptions\Custom\Http;
 
 use Bibo\Exceptions\AppException;
 
+/**
+ * Class NotFoundException
+ *
+ * This exception is thrown when a requested resource is not found.
+ *
+ * @package Bibo\Exceptions\Custom\Http
+ */
 class ForbiddenException extends AppException
 {
+    /**
+     * HTTP status code for Forbidden
+     *
+     * @var int
+     */
     protected $code = 403;
 
+    /**
+     * Default error message for Forbidden
+     *
+     * @var string
+     */
     protected $message = 'Forbidden';
 }
