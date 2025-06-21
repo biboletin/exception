@@ -1,15 +1,15 @@
 <?php
 
-namespace Bibo\Exceptions\Custom\Security;
+namespace Biboletin\Exceptions\Custom\Security;
 
-use Bibo\Exceptions\AppException;
+use Biboletin\Exceptions\AppException;
 
 /**
  * Class InvalidSignatureException
  *
  * This exception is thrown when a request has an invalid signature.
  *
- * @package Bibo\Exceptions\Custom\Security
+ * @package Biboletin\Exceptions\Custom\Security
  */
 class TokenExpiredException extends AppException
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Bibo\Exceptions;
+namespace Biboletin\Exceptions;
 
 use Exception;
 use Throwable;

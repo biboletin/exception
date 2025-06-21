@@ -1,15 +1,15 @@
 <?php
 
-namespace Bibo\Exceptions\Custom\Application;
+namespace Biboletin\Exceptions\Custom\Application;
 
-use Bibo\Exceptions\AppException;
+use Biboletin\Exceptions\AppException;
 
 /**
  * Class ConfigException
  *
  * This exception is thrown when there is an error in the application configuration.
  *
- * @package Bibo\Exceptions\Custom\Application
+ * @package Biboletin\Exceptions\Custom\Application
  */
 class DatabaseException extends AppException
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Bibo\Exceptions\Custom\Crypto;
+namespace Biboletin\Exceptions\Custom\Crypto;
 
-use Bibo\Exceptions\AppException;
+use Biboletin\Exceptions\AppException;
 
 /**
  * Class DecryptException

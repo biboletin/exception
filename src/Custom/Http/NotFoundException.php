@@ -1,15 +1,15 @@
 <?php
 
-namespace Bibo\Exceptions\Custom\Http;
+namespace Biboletin\Exceptions\Custom\Http;
 
-use Bibo\Exceptions\AppException;
+use Biboletin\Exceptions\AppException;
 
 /**
  * Class NotFoundException
  *
  * This exception is thrown when a requested resource is not found.
  *
- * @package Bibo\Exceptions\Custom\Http
+ * @package Biboletin\Exceptions\Custom\Http
  */
 class NotFoundException extends AppException
 {
